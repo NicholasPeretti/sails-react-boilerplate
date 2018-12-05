@@ -51,6 +51,9 @@ So this is the boilerplate that fits **my needs**, I hope it will fits yours too
 Work in progress
 
 * [x] Sails Blueprints (Powered by Waterline)
-* [ ] Webpack with `common`, `dev` and `prod` configuration files
-* [ ] Babel (ES6)
+* [x] Webpack with `common`, `dev` and `prod` configuration files
+* [x] Webpack Sass Loader
+* [x] Webpack File Loader (.svg, .woff2 etc..)
+* [x] Babel (ES6)
+* [ ] EsLint
 * [ ] React and ReactDom
