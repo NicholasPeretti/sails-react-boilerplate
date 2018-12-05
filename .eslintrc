@@ -5,7 +5,7 @@
   // A set of basic code conventions (similar to a .jshintrc file) designed to
   // encourage quality and consistency across your Sails app's code base.
   // These rules are checked against automatically any time you run `npm test`.
-  // 
+  //
   // > Note: If you're using mocha, you'll want to add an extra override file to your
   // > `test/` folder so that eslint will tolerate mocha-specific globals like `before`
   // > and `describe`.
@@ -80,7 +80,7 @@
     "one-var":                      ["warn", "never"],
     "prefer-arrow-callback":        ["warn", {"allowNamedFunctions":true}],
     "quotes":                       ["warn", "single", {"avoidEscape":false, "allowTemplateLiterals":true}],
-    "semi":                         ["error", "always"],
+    "semi":                         ["error", "never"],
     "semi-spacing":                 ["warn", {"before":false, "after":true}],
     "semi-style":                   ["warn", "last"]
   }
