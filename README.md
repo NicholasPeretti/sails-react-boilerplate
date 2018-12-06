@@ -56,4 +56,4 @@ Work in progress
 * [x] Webpack File Loader (.svg, .woff2 etc..)
 * [x] Babel (ES6)
 * [x] EsLint
-* [ ] React and ReactDom
+* [x] React and ReactDom
