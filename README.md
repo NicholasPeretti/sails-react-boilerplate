@@ -1,12 +1,20 @@
 # sails-react-boilerplate
+A very simple and lightweight configuration of SailsJS to speedup your
+development process.
+This boilerplate provides also al the latest front-end techonologies such as
+ReactJS and Webpack.
 
-:warning: This project is still under development. Please do not use in
-a production environment
+Nevertheless, one of the goals of this project is to keep the poilerplate as
+simple as possible to allows any developer to customize the boilerplate to fit
+his own needs.
 
-Features:
+If you were looking for something more complete you can take a look to all the
+branches of this repos. Enjoy!
+
+## Features
 * [Sails 1.0](https://sailsjs.com)
 * React 16.6.3
-* Webpack
+* Webpack 4
 
 ## Why
 If you want to use these technologies combo (Sails and React)
@@ -46,14 +54,3 @@ Sometimes they still use grunt (too slow), or they don't let me use multiples
 webpacks configurations (dev vs prod).
 
 So this is the boilerplate that fits **my needs**, I hope it will fits yours too.
-
-## Features
-Work in progress
-
-* [x] Sails Blueprints (Powered by Waterline)
-* [x] Webpack with `common`, `dev` and `prod` configuration files
-* [x] Webpack Sass Loader
-* [x] Webpack File Loader (.svg, .woff2 etc..)
-* [x] Babel (ES6)
-* [x] EsLint
-* [x] React and ReactDom
