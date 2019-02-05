@@ -1,3 +1,5 @@
+<img src="./cover.png">
+
 # sails-react-boilerplate
 A very simple and lightweight configuration of SailsJS to speedup your
 development process.
@@ -8,13 +10,21 @@ Nevertheless, one of the goals of this project is to keep the poilerplate as
 simple as possible to allows any developer to customize the boilerplate to fit
 his own needs.
 
-If you were looking for something more complete you can take a look to all the
-branches of this repos. Enjoy!
-
 ## Features
-* [Sails 1.0](https://sailsjs.com)
-* React 16.6.3
-* Webpack 4
+- :white_check_mark: [Sails 1.0](https://sailsjs.com) :boat:
+- :white_check_mark: React 16.6.3 :star2:
+- :white_check_mark: Webpack 4 :zap:
+- :white_check_mark: Hot Module Replacement :fire:
+
+## :warning: Webpack configuration :warning:
+This project comes with a ready-to-use webpack configuration.
+
+There should be more or less everything you need, but it's likely that you'll
+want to change the configuration.
+
+You can change the it however you want, just remember: **if
+you need to change the entrypoint, remember to update the configuration in all
+the environments!**
 
 ## Why
 If you want to use these technologies combo (Sails and React)
@@ -22,10 +32,10 @@ you have three options:
 
 * Install sails and customize it untill it meets your needs
 * Use a mix between Sails and Sails hooks
-* Find and use one of the available boilerplates on github
+* Find and use one of the available boilerplates on GitHub
 
 The best thing to do is to create a custom sails configuration to fit all your
-needs. The downside is that create your own perfect environment requires time
+needs. The downside is that creating your own perfect environment requires time
 and energy. You have to make sure that everything works and, if you work for a web
 agency, you propbably can't waste that amount of time in configuration.
 
@@ -37,7 +47,7 @@ the product in no time and every day you work in rush.
 Suddenly the code quality does not matter anymore.
 
 This kind of things contribute to create an unhealthy environment for developers,
-that leads to a low quality product, full of bugs and almost unusable.
+that leads to low quality products, full of bugs and almost unusable.
 It also means that you'll have to work on it later to fix all the problems that
 you have created in the first place.
 
