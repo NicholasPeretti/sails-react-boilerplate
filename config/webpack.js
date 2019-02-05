@@ -30,7 +30,7 @@ module.exports.webpack = {
           'sass-loader'
         ]
       }, {
-        test: /\.(ttf|eot|svg|ttf|woff|woff2)$/,
+        test: /\.(ttf|eot|svg|png|ttf|woff|woff2)$/,
         use: [
           {
             loader: 'file-loader',
@@ -43,7 +43,7 @@ module.exports.webpack = {
   plugins: [
     new CopyWebpackPlugin([
       {
-        from: path.resolve(__dirname, '../src/index.html'),
+        from: path.resolve(__dirname, '../src/public'),
         to: publicPath
       }
     ])
