@@ -1,18 +1,13 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import ReactIcon from '../images/react-icon.png'
 import '../styles/style.scss'
+import App from './App'
 
-class App extends React.Component {
-  render () {
-    return (
-      <div class="container">
-        <img src={ReactIcon} className="spin" style={{width: '500px'}}/>
-        <h1>Let's build something amaizing</h1>
-        <p>Edit the <code>src/index.js</code> file to see the changes</p>
-      </div>
-    )
-  }
+const render = (Component) => (
+  ReactDom.render(<Component/>, document.getElementById('root'))
+)
+render(App)
+
+if (module.hot) {
+  module.hot.accept('./App', () => { render(App) });
 }
-
-ReactDom.render(<App/>, document.getElementById('root'))

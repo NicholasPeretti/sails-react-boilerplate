@@ -1,3 +1,4 @@
+const webpack = require('webpack')
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 const destinationPath = path.resolve(__dirname, '../.tmp');
@@ -5,7 +6,11 @@ const publicPath = path.resolve(destinationPath, './public');
 
 module.exports.webpack = {
   mode: 'development',
-  entry: path.resolve(__dirname, '../src/js/index.js'),
+  entry: [
+    'react-hot-loader/patch',
+    'webpack-hot-middleware/client',
+    path.resolve(__dirname, '../src/js/index.js')
+  ],
   output: {
     path: publicPath,
     filename: 'bundle.js'
@@ -18,7 +23,8 @@ module.exports.webpack = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+            plugins: ['react-hot-loader/babel']
           }
         }
       },
@@ -41,6 +47,7 @@ module.exports.webpack = {
     ]
   },
   plugins: [
+    new webpack.HotModuleReplacementPlugin(),
     new CopyWebpackPlugin([
       {
         from: path.resolve(__dirname, '../src/public'),

@@ -19,6 +19,8 @@
  * https://sailsjs.com/docs/concepts/deployment
  */
 
+const path = require('path')
+
 module.exports = {
 
 
@@ -392,7 +394,8 @@ module.exports = {
   },
 
   webpack: {
-    mode: 'production'
+    mode: 'production',
+    entry: path.resolve(__dirname, '../../src/js/index.js')
   }
 
 

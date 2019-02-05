@@ -9,6 +9,7 @@
     "async": "2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.6.5",
     "sails": "^1.0.2",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
