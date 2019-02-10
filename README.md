@@ -12,7 +12,7 @@ his own needs.
 
 ## Features
 - :white_check_mark: [Sails 1.0](https://sailsjs.com) :boat:
-- :white_check_mark: React 16.6.3 :star2:
+- :white_check_mark: React 16.8.1 :star2:
 - :white_check_mark: Webpack 4 :zap:
 - :white_check_mark: Hot Module Replacement :fire:
 

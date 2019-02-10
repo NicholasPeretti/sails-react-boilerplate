@@ -7,7 +7,7 @@
   "dependencies": {
     "@sailshq/lodash": "^3.10.3",
     "async": "2.0.1",
-    "react": "^16.6.3",
+    "react": "^16.8.1",
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.6.5",
     "sails": "^1.0.2",
