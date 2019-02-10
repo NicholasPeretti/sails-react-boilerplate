@@ -3,11 +3,11 @@
 # sails-react-boilerplate
 A very simple and lightweight configuration of SailsJS to speedup your
 development process.
-This boilerplate provides also al the latest front-end techonologies such as
+This boilerplate provides also all the latest front-end techonologies such as
 ReactJS and Webpack.
 
 Nevertheless, one of the goals of this project is to keep the poilerplate as
-simple as possible to allows any developer to customize the boilerplate to fit
+simple as possible to allow any developer to customize the boilerplate to fit
 his own needs.
 
 ## Features
@@ -22,8 +22,8 @@ This project comes with a ready-to-use webpack configuration.
 There should be more or less everything you need, but it's likely that you'll
 want to change the configuration.
 
-You can change the it however you want, just remember: **if
-you need to change the entrypoint, remember to update the configuration in all
+You can change it however you want, just remember: **if
+you need to change the entrypoint, update the configuration in all
 the environments!**
 
 ## Why
