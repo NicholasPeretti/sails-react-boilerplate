@@ -16,6 +16,29 @@ his own needs.
 - :white_check_mark: Webpack 4 :zap:
 - :white_check_mark: Hot Module Replacement :fire:
 
+## Usage
+Clone and install the dependencies like you'd normally do:
+```
+git clone git@github.com:NicholasPeretti/sails-react-boilerplate.git my-project
+cd my-project
+yarn
+```
+
+For the best developer experience rename the origin remote in `sails-react-boilerplate`:
+```
+git remote rename origin sails-react-boilerplate
+```
+This is very useful when `react` or other depencecies are updated. In that case
+this boilerplate will remain updated and you'll be able to fetch the latest version
+with the following:
+```
+git stash
+git fetch sails-react-boilerplate
+git rebase
+git stash pop
+```
+This should do the job, but be careful.
+
 ## :warning: Webpack configuration :warning:
 This project comes with a ready-to-use webpack configuration.
 
