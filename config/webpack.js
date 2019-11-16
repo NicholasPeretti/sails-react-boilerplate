@@ -9,7 +9,7 @@ module.exports.webpack = {
   entry: [
     'react-hot-loader/patch',
     'webpack-hot-middleware/client',
-    path.resolve(__dirname, '../src/js/index.js')
+    path.resolve(__dirname, '../src/js/index.jsx')
   ],
   output: {
     path: publicPath,
@@ -18,7 +18,7 @@ module.exports.webpack = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.m?jsx?$/,
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader'
@@ -42,12 +42,16 @@ module.exports.webpack = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new CopyWebpackPlugin([
       {
         from: path.resolve(__dirname, '../src/public'),
-        to: publicPath
+        to: publicPath,
+        ignore: ['.gitkeep'],
       }
     ])
   ],

@@ -7,7 +7,7 @@ class App extends React.Component {
       <div className="container">
         <img src={ReactIcon} className="spin" style={{width: '500px'}}/>
         <h1>Let's build something amaizing</h1>
-        <p>Edit the <code>src/index.js</code> file to see the changes</p>
+        <p>Edit the <code>src/index.jsx</code> file to see the changes</p>
       </div>
     )
   }
