@@ -31,9 +31,9 @@
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development node app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
-    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
-    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'"
   },
   "main": "app.js",
   "repository": {
@@ -41,7 +41,7 @@
     "url": "git://github.com/nicholasperetti/sails-react-boilerplate.git"
   },
   "author": "nicholasperetti",
-  "license": "",
+  "license": "MIT",
   "engines": {
     "node": ">=10.7"
   }
